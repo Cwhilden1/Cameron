@@ -1,0 +1,63 @@
+# Iron Bear Solutions - GitHub Pages Deployment
+
+This is the official website for **Iron Bear Solutions**, designed for deployment on GitHub Pages.
+
+## 🛠️ **Files to Include**
+1. `index.html` - Main HTML structure
+2. `styles.css` - CSS styling for layout and design
+3. `Iron_Bear_Solutions_Logo.png` - Company logo (Place this in the root directory)
+
+
+## 🌐 **Deployment Steps**
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/Cwhilden1/Cameron.git
+    ```
+
+2. Navigate into the project folder:
+    ```bash
+    cd Cameron
+    ```
+
+3. Place the following files in the root of the repository:
+    - `index.html`
+    - `styles.css`
+    - `Iron_Bear_Solutions_Logo.png`
+
+4. Commit and push your changes:
+    ```bash
+    git add .
+    git commit -m "Deploy Iron Bear Solutions website"
+    git push
+    ```
+
+5. Go to **Settings → Pages** in your GitHub repository.
+6. Under **Source**, select `Deploy from branch`.
+7. Choose the `main` branch and set the folder to `/ (root)`.
+8. Click **Save**.
+
+## 🔗 **DNS Configuration (GoDaddy)**
+In GoDaddy, set the following:
+
+### A Records
+| Host | Points To            |
+|-------|----------------------|
+| @     | 185.199.108.153     |
+| @     | 185.199.109.153     |
+| @     | 185.199.110.153     |
+| @     | 185.199.111.153     |
+
+### CNAME Record
+| Host | Points To                  |
+|-------|---------------------------|
+| www   | Cwhilden1.github.io       |
+
+---
+
+## ✅ **Done!**
+Visit: [ironbearsolutions.com](http://ironbearsolutions.com) and [www.ironbearsolutions.com](http://www.ironbearsolutions.com) after DNS propagation.
+
+If you encounter any issues, check your DNS settings or the GitHub Pages build logs.
+
+---
+**Iron Bear Solutions - Strength, Reliability, and Innovation.**
